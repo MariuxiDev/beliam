@@ -1,0 +1,81 @@
+/* Componentes reutilizados de demo-cosmetic. Fuente: referencia/assets/css/styles.css.
+   Plantilla original: Amoda 1.0.1, Themesflat. Se conserva la atribuci?n t?cnica. */
+.container-5 {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1342px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-wrap {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.btn-wrap.btn-4 {
+  padding-left: 47px;
+  padding-right: 47px;
+  height: 46px;
+  border-radius: 30px;
+}
+
+.btn-wrap.btn-4.stroke {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn-wrap.btn-4.stroke:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.hover-img .img-style {
+  overflow: hidden;
+}
+
+.hover-img .img-style > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-transition: opacity 0.5s ease, transform 1.5s cubic-bezier(0, 0, 0.44, 1.18);
+  transition: opacity 0.5s ease, transform 1.5s cubic-bezier(0, 0, 0.44, 1.18);
+}
+
+.hover-img:hover .img-style > img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.cosmetic-gallery-grid {
+  gap: 15px;
+}
+
+.section-cosmetic-text-image .box-text-image-wrap {
+  margin-bottom: 40px;
+}
+
+.box-text-image-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  margin-bottom: 48px;
+}
+
+.box-text-image-wrap .break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.box-text-image-wrap .image {
+  border-radius: 1212px;
+  overflow: hidden;
+  display: flex;
+}
